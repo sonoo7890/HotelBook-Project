@@ -1,0 +1,98 @@
+.auth-container {
+  min-height: 100vh;
+  width: 100%;
+  background-image: 
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD */
+.auth-card {
+  background: rgba(255, 255, 255, 0.95);
+  width: 380px;
+  padding: 35px 30px;
+  border-radius: 14px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.35);
+  text-align: center;
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.auth-card h2 {
+  margin-bottom: 20px;
+  color: #0f172a;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+/* INPUTS */
+.auth-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 14px;
+  outline: none;
+}
+
+.auth-card input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37,99,235,0.2);
+}
+
+/* BUTTON */
+.auth-card button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.auth-card button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(37,99,235,0.4);
+}
+
+/* LINKS */
+.auth-card p {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #374151;
+}
+
+.auth-card span {
+  color: #2563eb;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* ERROR */
+.error-text {
+  color: #dc2626;
+  font-size: 13px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}

@@ -1,0 +1,62 @@
+{
+  "hotels": [
+  {
+    "id": 1,
+    "name": " Taj Palace",
+    "city": "Delhi",
+    "price": 8500,
+    "image": "/hotels/h1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Oberoi Grand",
+    "city": "Kolkata",
+    "price": 4800,
+    "image": "/hotels/h2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "ITC Grand Chola",
+    "city": "Chennai",
+    "price": 6200,
+    "image": "/hotels/h3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Leela Palace",
+    "city": "Bangalore",
+    "price": 7200,
+    "image": "/hotels/h4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Rambagh Palace",
+    "city": "Jaipur",
+    "price": 9000,
+    "image": "/hotels/h5.jpg"
+  },
+
+   {
+    "id": 6,
+    "name": "Span Resort & Spa",
+    "city": "Manali",
+    "price": 7900,
+    "image": "/hotels/h6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Taj Mahal Palace",
+    "city": "Mumbai",
+    "price": 9900,
+    "image": "/hotels/h7.jpg"
+  },
+   {
+      "id": 8,
+      "name": "The Oberoi Mumbai",
+      "city": "Mumbai",
+      "price": 9700,
+      "rating": 4.8,
+      "image": "/hotels/h8.jpg"}
+  
+]
+}
